@@ -1,0 +1,28 @@
+{
+  "name": "siv-cli",
+  "version": "1.0.0",
+  "description": "scaffold for team",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "git-clone": "^0.1.0",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gooqi/sivisc.git"
+  },
+  "keywords": [
+    "siv"
+  ],
+  "author": "nhuang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gooqi/sivisc/issues"
+  },
+  "homepage": "https://github.com/gooqi/sivisc#readme"
+}
