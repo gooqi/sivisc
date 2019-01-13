@@ -1,0 +1,19 @@
+{
+  "tornado": {
+      "name":"tornado",
+      "language":"python",
+      "config":{
+          "git":"gooqi/g_tornado"
+
+      }
+  },
+  "laravel":{
+      "name":"laravel",
+      "language":"php",
+      "config":{
+          "git":"gooqi/g_laravel"
+      }
+  }
+
+ 
+}

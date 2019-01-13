@@ -2,11 +2,20 @@
   "name": "siv-cli",
   "version": "1.0.0",
   "description": "scaffold for team",
-  "main": "index.js",
+  "main": "./bin/index.js",
+  "bin": {
+    "siv": "./bin/index.js"
+  },
   "dependencies": {
+    "chalk": "^2.4.2",
     "commander": "^2.19.0",
-    "git-clone": "^0.1.0",
-    "shelljs": "^0.8.3"
+    "download-git-repo": "^1.1.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.1",
+    "ora": "^3.0.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.3",
+    "tracer": "^0.9.8"
   },
   "devDependencies": {},
   "scripts": {
