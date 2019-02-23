@@ -3,7 +3,7 @@
       "name":"tornado",
       "language":"python",
       "config":{
-          "git":"gooqi/g_tornado"
+          "url":"gooqi/g_tornado"
 
       }
   },
@@ -11,7 +11,7 @@
       "name":"laravel",
       "language":"php",
       "config":{
-          "git":"gooqi/g_laravel"
+          "url":"gooqi/g_laravel"
       }
   }
 

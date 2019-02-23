@@ -13,17 +13,17 @@ program.version('1.0.0', '-v, --version')
 	.command('new <tpl> [name]')
     .alias('n')
     .description('Creates a new project')
-    .action((name,tpl) => {
+    .action((tpl,name) => {
         if(!tpl || !name){
-            console.log()
+            console.error(chalk.red('缺少参数'))
             console.log('  Examples:')
             console.log(chalk.yellow('    # 使用siv项目创建'))
             console.log('    $ siv new project-name my-project')
-            console.log('    $ struct n project-name  my-project')
+            console.log('    $ siv n project-name  my-project')
             console.log()
             return;
         }
-                init({name,tpl});
+        init({name,tpl});
     
     })
 program.parse(process.argv);
